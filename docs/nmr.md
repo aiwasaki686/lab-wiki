@@ -1,6 +1,6 @@
 ---
 title: NMR関連
-nav_order:20
+nav_order: 20
 ---
 
 # NMRにまつわるトラブル
