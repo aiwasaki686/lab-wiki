@@ -12,3 +12,4 @@ nav_order: 1
 - [MS/LCMS関連](docs/ms.md)
 - [NMR関連](docs/nmr.md)
 - [FAQ](docs/faq.md)
+- [HPLC関連](docs/hplc.md)
