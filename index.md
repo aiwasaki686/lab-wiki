@@ -10,5 +10,5 @@ nav_order: 1
 
 ## Start here!
 - [Onboarding](docs/onboarding.md)
-- [Data management](docs/data-management.md)
+- [NMR関連](docs/nmr.md)
 - [FAQ](docs/faq.md)
