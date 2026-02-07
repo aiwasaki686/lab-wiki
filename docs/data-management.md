@@ -1,5 +1,5 @@
 ---
-title: Data Management
+title: NMR測定
 nav_order: 3
 ---
 
