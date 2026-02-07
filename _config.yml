@@ -1,12 +1,11 @@
 title: Lab Wiki
 description: Internal lab know-how and handbook
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 url: https://aiwasaki686.github.io
 baseurl: /lab-wiki
 
 search_enabled: true
 
-aux_links:
-  "Repository":
-    - "https://github.com/aiwasaki686/lab-wiki"
+plugins:
+  - jekyll-remote-theme
