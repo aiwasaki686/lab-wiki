@@ -1,7 +1,7 @@
 ---
 title: ページ追加方法ガイド
 nav_order: 10
-parent: Webページ管理
+parent: Webページ管理法
 ---
 
 # GitHubPages にページを追加する方法
