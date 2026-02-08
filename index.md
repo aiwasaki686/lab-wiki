@@ -13,5 +13,5 @@ nav_order: 1
 - [NMR関連](docs/nmr.md)
 - [MS関連](docs/ms.md)
 - [採集関連](docs/sample_collection.md)
-- [Webページ更新法](docs/webpage.md)
+- [Webページ更新法](docs/webpages.md)
 - [FAQ](docs/faq.md)
