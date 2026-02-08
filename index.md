@@ -15,3 +15,4 @@ nav_order: 1
 - [FAQ](docs/faq.md)
 - [HPLC関連](docs/hplc.md)
 - [報告会関連](docs/meeting.md)
+- [採集関連](docs/sample_collection.md)
