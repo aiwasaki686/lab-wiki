@@ -1,9 +1,9 @@
 ---
 title: MS/LCMS関連
-nav_order: 10
+nav_order: 50
 ---
 
-# MS/LCMS関連のノウハウ
+# MS関連のノウハウ
 
 ## Q. NMRのS/Nが悪い
 - 濃度
