@@ -4,9 +4,7 @@ layout: default
 nav_order: 1
 ---
 
-# Lab Wiki
-
-岩崎研リンク・ノウハウ集
+# 岩崎研リンク・ノウハウ集
 
 ## Start here!
 - [試薬、器具の購入と管理](docs/purchase.md)
