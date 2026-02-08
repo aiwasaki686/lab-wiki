@@ -7,4 +7,4 @@ has_children: true
 ## Webページ管理
 
 - [ページ追加法ガイド](webpage_manual/webpages.md)
-- [トップページの更新法ガイド](webpages_manual/index_manual.md)
+- [トップページの更新法ガイド](webpage_manual/index_manual.md)
