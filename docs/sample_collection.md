@@ -1,6 +1,6 @@
 ---
 title: 採集関連
-nav_order: 10
+nav_order: 60
 ---
 
 ## 採集関連リンク
