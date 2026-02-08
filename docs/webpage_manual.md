@@ -1,5 +1,5 @@
 ---
-title: Webページ管理
+title: Webページ管理法
 nav_order: 90
 has_children: true
 ---
