@@ -1,6 +1,6 @@
 ---
 title: 報告会関連
-nav_order: 79
+nav_order: 20
 ---
 
 ## 報告会関連リンク
