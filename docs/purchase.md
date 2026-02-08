@@ -14,4 +14,3 @@ nav_order: 99
 - [アズワン](https://sse-shimadzu-wave-ec.as-1.co.jp/login/) 　器具全般の注文
 - [チヨダサイエンス](https://docs.google.com/spreadsheets/d/1ANNDOqaMITGKmORENvmtq5Dy1mPumTNH_ecdLkTnPuk/edit?usp=sharing)　　細胞培養関連器具の注文
 
-
