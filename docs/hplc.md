@@ -6,6 +6,5 @@ has_children: true
 
 # HPLC関連のノウハウ
 
-## Q. NMRのS/Nが悪い
 - [キラルカラム HPLC 関連](hplc/chiral_column.md)
 
