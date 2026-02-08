@@ -1,6 +1,6 @@
 ---
 title: HPLC関連
-nav_order: 10
+nav_order: 30
 has_children: true
 ---
 
