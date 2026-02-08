@@ -1,6 +1,7 @@
 ---
 title: トップページ（index.md）の更新方法
-nav_order: 97
+nav_order: 50
+parent: Webページ管理
 ---
 
 index.md は、[冒頭のWebページ](https://aiwasaki686.github.io/lab-wiki/)のこと。<br>
