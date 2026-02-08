@@ -9,7 +9,7 @@ nav_order: 1
 岩崎研リンク・ノウハウ集
 
 ## Start here!
-- [試薬、器具購入](docs/purchase.md)
+- [試薬、器具の購入と管理](docs/purchase.md)
 - [MS/LCMS関連](docs/ms.md)
 - [NMR関連](docs/nmr.md)
 - [FAQ](docs/faq.md)
