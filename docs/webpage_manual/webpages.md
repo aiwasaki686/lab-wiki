@@ -99,11 +99,8 @@ nav_order: 10
 
 本文に以下を書く
 ```
-![ウツボ](/images/DSCN0704.jpeg)
+![画像の説明](/images/DSCN0704.jpeg)
 ```
-これを実行したもの↓
-
-![ウツボ](/images/DSCN0704.jpeg)
 
 ## 4. 保存（Commit）する
 
