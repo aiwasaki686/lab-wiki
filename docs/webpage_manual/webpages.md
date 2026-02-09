@@ -82,7 +82,7 @@ nav_order: 10
 <span style="color:red;">重要</span>
 ```
 
-### リンクの貼り方
+### リンクの張り方
 []内に表示したい文字列を記載。()内にリンク先のアドレスを記載。
 - 本Webページ内でのリンク
 ```
@@ -93,7 +93,7 @@ nav_order: 10
 [Bruker公式サイト](https://www.bruker.com/)　アドレスをそのまま貼り付ける。
 ```
 
-### リンクの貼り方②　リンクを別ウィンドウで開きたいとき
+### リンクの張り方②　リンクを別ウィンドウで開きたいとき
 以下の様式で記載
 ```
 <a href="リンク先のURL" target="_blank" rel="noopener"> 説明書き </a>
@@ -146,10 +146,10 @@ nav_order: 10
 - **個人情報や内部資料は直接書き込まない。**<br>
 → 必要な場合は岩崎研共有フォルダに資料をアップし、リンクを張る。学外者のアクセスが不可となる。<br>
 例：<br>
-[末端アルキン化合物判定用エクセルシート](https://docs.google.com/spreadsheets/d/1-DKLjEakIeP2p3XObKY4y7g5occmfGF8UX7oBSr5sFc/edit?usp=sharing)<br>
+<a href="https://docs.google.com/spreadsheets/d/1-DKLjEakIeP2p3XObKY4y7g5occmfGF8UX7oBSr5sFc/edit?usp=sharing" target="_blank" rel="noopener">末端アルキン化合物判定用エクセルシート</a><br>
 上記リンクのコード<br>
 ```
-[末端アルキン化合物判定用エクセルシート](https://docs.google.com/spreadsheets/d/1-DKLjEakIeP2p3XObKY4y7g5occmfGF8UX7oBSr5sFc/edit?usp=sharing)
+<a href="https://docs.google.com/spreadsheets/d/1-DKLjEakIeP2p3XObKY4y7g5occmfGF8UX7oBSr5sFc/edit?usp=sharing" target="_blank" rel="noopener">末端アルキン化合物判定用エクセルシート</a>
 ```
 
 ## 8. 迷ったら
