@@ -99,11 +99,11 @@ nav_order: 10
 
 本文に以下を書く
 ```
-![ウミヘビ](/images/DSCN0704.JPG)
+![ウミヘビ](/images/DSCN0704.jpeg)
 ```
 これを実行したもの↓
 
-![ウミヘビ](/images/DSCN0704.JPG)
+![ウミヘビ](/images/DSCN0704.jpeg)
 
 ## 4. 保存（Commit）する
 
