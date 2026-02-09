@@ -103,7 +103,7 @@ nav_order: 10
 ```
 これを実行したもの↓
 
-![ウツボ](/images/DSCN0704.jpeg)
+![ウツボ](/webpage_manual/images/DSCN0704.jpeg)
 
 ## 4. 保存（Commit）する
 
