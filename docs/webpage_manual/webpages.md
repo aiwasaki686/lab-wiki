@@ -99,8 +99,11 @@ nav_order: 10
 
 本文に以下を書く
 ```
-![説明文](/images/hplc/chiral_example.png)
+![ウミヘビ](/images/DSCN0704.JPG)
 ```
+これを実行したもの↓
+
+![ウミヘビ](/images/DSCN0704.JPG)
 
 ## 4. 保存（Commit）する
 
