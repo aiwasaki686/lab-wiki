@@ -4,8 +4,4 @@ nav_order: 60
 ---
 
 ## 採集関連リンク
-- [採集記録](https://drive.google.com/drive/folders/17gg91-rrNG9dnzA-K31iILz9lInrKJ5X?usp=drive_link)
-
-
-
-
+- <a href="https://drive.google.com/drive/folders/17gg91-rrNG9dnzA-K31iILz9lInrKJ5X?usp=drive_link" target="_blank" rel="noopener">採集記録</a>
