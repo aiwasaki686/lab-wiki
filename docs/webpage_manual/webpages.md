@@ -93,6 +93,18 @@ nav_order: 10
 [Bruker公式サイト](https://www.bruker.com/)　アドレスをそのまま貼り付ける。
 ```
 
+### リンクの貼り方②　リンクを別ウィンドウで開きたいとき
+以下の様式で記載
+```
+<a href="リンク先のURL" target="_blank" rel="noopener"> 説明書き </a>
+```
+例
+```
+<a href="https://www.chuo-u.ac.jp/" target="_blank" rel="noopener">中央大学</a>
+```
+これを実行したもの→　
+<a href="https://www.chuo-u.ac.jp/" target="_blank" rel="noopener">中央大学</a>
+
 ### 画像の貼り方
 
 画像を images/ フォルダにアップロード　たとえば写真がDSCN0704.jpegという名前だとする。
