@@ -9,7 +9,7 @@ nav_order: 10
 - <a href="https://docs.google.com/spreadsheets/d/1Dm2hvG7nx91Od_Ex-xoSxB4AReDg0Ll86XznNPazt7c/edit?usp=sharing" target="_blank" rel="noopener">十條合成</a>　東京化成、関東化学系の注文
 
 ## 器具注文先リンク
-- <a href="https://docs.google.com/spreadsheets/d/1ANNDOqaMITGKmORENvmtq5Dy1mPumTNH_ecdLkTnPuk/edit?usp=sharing" target="_blank" rel="noopener">アズワン</a>　器具全般の注文
+- <a href="https://sse-shimadzu-wave-ec.as-1.co.jp/login/" target="_blank" rel="noopener">アズワン</a>　器具全般の注文
 - <a href="https://docs.google.com/spreadsheets/d/1ANNDOqaMITGKmORENvmtq5Dy1mPumTNH_ecdLkTnPuk/edit?usp=sharing" target="_blank" rel="noopener">チヨダサイエンス</a>　細胞培養関連器具の注文
 
 ## 試薬管理リンク
