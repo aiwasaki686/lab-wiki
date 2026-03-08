@@ -6,4 +6,4 @@ has_children: true
 
 ## 学会情報
 
-- [参加候補学会一覧](event/meeting.md)
+- [参加候補学会一覧](event/conference.md)
