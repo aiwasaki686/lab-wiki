@@ -14,20 +14,20 @@ parent: 学会・イベント関連
 ## 年間早見表
 <table>
 <thead>
-<tr><th>開催日</th><th>名称</th><th>開催地</th><th>会費</th><th>申込期限</th><th>備考</th></tr>
+<tr><th>開催日</th><th width="25%">名称</th><th>開催地</th><th>会費</th><th>申込期限</th><th>備考</th></tr>
 </thead>
 <tbody>
-<tr><td>6/1-3</td><td><a href="#jscb">日本ケミカルバイオロジー学会 年会</a></td><td>北海道函館市</td><td>7,000 円</td><td>4/1(水)</td><td> </td></tr>
-<tr><td>7/8-10</td><td><a href="#npdanwa">天然物化学談話会</a></td><td>宮崎県宮崎市</td><td>30,000 円</td><td>5/30(土)</td><td>食費・宿泊費込</td></tr>
+<tr><td>6/1-3</td><td><strong>★<a href="#jscb">日本ケミカルバイオロジー学会 年会</a></strong></td><td>北海道函館市</td><td>7,000 円</td><td>4/1(水)</td><td> </td></tr>
+<tr><td>7/8-10</td><td><strong>★<a href="#npdanwa">天然物化学談話会</a></strong></td><td>宮崎県宮崎市</td><td>30,000 円</td><td>5/30(土)</td><td>食費・宿泊費込</td></tr>
 <tr><td>9/2-4</td><td><a href="#dokuso">トキシンシンポジウム</a></td><td>京都 (予定)</td><td>18,000 円 (昨年)</td><td>7/7 (昨年)</td><td>食費・宿泊費込</td></tr>
-<tr><td>9/16-18</td><td><a href="#npsympo">天然有機化合物討論会</a></td><td>徳島 (予定)</td><td>7,000 円 (昨年)</td><td>5/23 (昨年)</td><td> </td></tr>
+<tr><td>9/16-18</td><td><strong>★<a href="#npsympo">天然有機化合物討論会</a></strong></td><td>徳島 (予定)</td><td>7,000 円 (昨年)</td><td>5/23 (昨年)</td><td> </td></tr>
 <tr><td>9月頃</td><td><a href="#medkanto">日本薬学会 関東支部大会</a></td><td>未定</td><td>2,000 円 (昨年)</td><td>7/28 (昨年)</td><td> </td></tr>
-<tr><td>10/20-22</td><td><a href="#csjfesta">CSJ化学フェスタ</a></td><td>東京都江戸川区</td><td>7,000 円 (昨年)</td><td>7/3 (昨年)</td><td> </td></tr>
+<tr><td>10/20-22</td><td><strong>★<a href="#csjfesta">CSJ化学フェスタ</a></strong></td><td>東京都江戸川区</td><td>7,000 円 (昨年)</td><td>7/3 (昨年)</td><td> </td></tr>
 <tr><td>10/27-28</td><td><a href="#cyano">藍藻の分子生物学</a></td><td>愛知県豊橋市</td><td>1,000 円</td><td>未発表</td><td>隔年開催</td></tr>
 <tr><td>10/28-30</td><td><a href="#peptide">ペプチド討論会</a></td><td>広島県広島市</td><td>4,000 円 (昨年)</td><td>8/11 (昨年)</td><td> </td></tr>
 <tr><td>12/1-4</td><td><a href="#bmb">日本分子生物学会 年会</a></td><td>神奈川県横浜市</td><td>3,000 円 (昨年)</td><td>7/14(水)</td><td> </td></tr>
 <tr><td>12/7-9</td><td><a href="#molsim">分子シミュレーション討論会</a></td><td>福岡県福岡市</td><td>3,000 円 (昨年)</td><td>9/15 (昨年)</td><td> </td></tr>
-<tr><td>3/23-26</td><td><a href="#csjmeet">日本化学会春季年会</a></td><td>千葉県野田市</td><td>5,000 円 (昨年)</td><td>11/27 (昨年)</td><td> </td></tr>
+<tr><td>3/23-26</td><td><strong>★<a href="#csjmeet">日本化学会春季年会</a></strong></td><td>千葉県野田市</td><td>5,000 円 (昨年)</td><td>11/27 (昨年)</td><td> </td></tr>
 <tr><td>3/25-28</td><td><a href="#medmeet">日本薬学会 年会</a></td><td>東京都八王子市</td><td>3,000 円 (昨年)</td><td>11/21 (昨年)</td><td> </td></tr>
 </tbody>
 </table>
