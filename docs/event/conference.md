@@ -15,6 +15,7 @@ parent: 学会・イベント関連
 <table>
 <thead>
 <tr><th>開催日<th>名称<th>開催地<th>会費<th>申込期限<th>備考
+</thead>
 <tbody>
 <tr><td>6/1-3<td><a href="#jscb">日本ケミカルバイオロジー学会 年会</a><td>北海道函館市<td>7,000 円<td>4/1(水)<td> 
 <tr><td>7/8-10<td><a href="#npdanwa">天然物化学談話会</a><td>宮崎県宮崎市<td>30,000 円<td>5/30(土)<td>食費・宿泊費込 
@@ -26,6 +27,7 @@ parent: 学会・イベント関連
 <tr><td>12/7-9<td><a href="#molsim">分子シミュレーション討論会</a><td>福岡県福岡市<td>3,000 円 (昨年)<td>9/15 (昨年)<td> 
 <tr><td>3/23-26<td><a href="#csjmeet">日本化学会春季年会</a><td>千葉県野田市<td>5,000 円 (昨年)<td>11/27 (昨年)<td> 
 <tr><td>3/25-28<td><a href="#medmeet">日本薬学会 年会</a><td>東京都八王子市<td>3,000 円 (昨年)<td>11/21 (昨年)<td> 
+</tbody>
 </table>
 
 ---
