@@ -20,7 +20,7 @@ parent: 学会・イベント関連
 <tr><td>6/1-3</td><td><strong>★<a href="#jscb">日本ケミカルバイオロジー学会 年会</a></strong></td><td>北海道函館市</td><td>7,000 円</td><td>4/1(水)</td><td> </td></tr>
 <tr><td>7/8-10</td><td><strong>★<a href="#npdanwa">天然物化学談話会</a></strong></td><td>宮崎県宮崎市</td><td>30,000 円</td><td>5/30(土)</td><td>食費・宿泊費込</td></tr>
 <tr><td>9/2-4</td><td><a href="#dokuso">トキシンシンポジウム</a></td><td>京都 (予定)</td><td>18,000 円 (昨年)</td><td>7/7 (昨年)</td><td>食費・宿泊費込</td></tr>
-<tr><td>9/16-18</td><td><strong>★<a href="#npsympo">天然有機化合物討論会</a></strong></td><td>徳島 (予定)</td><td>7,000 円 (昨年)</td><td>5/23 (昨年)</td><td> </td></tr>
+<tr><td>9/16-18</td><td><strong>★<a href="#npsympo">天然有機化合物討論会</a></strong></td><td>徳島県徳島市</td><td>7,000 円 (昨年)</td><td>5/22(金)</td><td> </td></tr>
 <tr><td>9月頃</td><td><a href="#medkanto">日本薬学会 関東支部大会</a></td><td>未定</td><td>2,000 円 (昨年)</td><td>7/28 (昨年)</td><td> </td></tr>
 <tr><td>10/20-22</td><td><strong>★<a href="#csjfesta">CSJ化学フェスタ</a></strong></td><td>東京都江戸川区</td><td>7,000 円 (昨年)</td><td>7/3 (昨年)</td><td> </td></tr>
 <tr><td>10/27-28</td><td><a href="#cyano">藍藻の分子生物学</a></td><td>愛知県豊橋市</td><td>1,000 円</td><td>未発表</td><td>隔年開催</td></tr>
@@ -92,10 +92,10 @@ parent: 学会・イベント関連
 
 </details>
 
-### <a name="npsympo">[天然有機化合物討論会]()</a>
+### <a name="npsympo">[天然有機化合物討論会](https://cnp-symposium.com/2026/)</a>
 - 開催日：9月16日 - 9月18日
-- 演題登録期限：5月23日 (昨年度参考)
-- 会場：徳島県 (予定)
+- 演題登録期限：5月22日(金)
+- 会場：あわぎんホール(徳島県郷土文化会館) (徳島県徳島市 JR徳島駅)
 - 参加費：7,000 円 (昨年度参考)
 - 発表形式：口頭/ポスター
 - 備考：
