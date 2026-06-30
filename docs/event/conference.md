@@ -20,13 +20,14 @@ parent: 学会・イベント関連
 <tr><td>6/1-3</td><td><strong>★<a href="#jscb">日本ケミカルバイオロジー学会 年会</a></strong></td><td>北海道函館市</td><td>7,000 円</td><td>4/1(水)</td><td> </td></tr>
 <tr><td>7/8-10</td><td><strong>★<a href="#npdanwa">天然物化学談話会</a></strong></td><td>宮崎県宮崎市</td><td>30,000 円</td><td>5/30(土)</td><td>食費・宿泊費込</td></tr>
 <tr><td>9/2-4</td><td><a href="#dokuso">トキシンシンポジウム</a></td><td>京都府京都市</td><td>35,000 円</td><td>6/5(土)</td><td>食費・宿泊費込</td></tr>
+<tr><td>9/2-4</td><td><a href="#jsmrs">日本微生物資源学会大会</a></td><td>宮城県石巻市</td><td>3,000 円</td><td>7/3(金)</td><td> </td></tr>
 <tr><td>9/16-18</td><td><strong>★<a href="#npsympo">天然有機化合物討論会</a></strong></td><td>徳島県徳島市</td><td>6,000 円</td><td>5/22(金)</td><td>要旨集 5,000 円</td></tr>
 <tr><td>9/12</td><td><a href="#medkanto">日本薬学会 関東支部大会</a></td><td>栃木県大田原市</td><td>2,500 円</td><td>7/27(月)</td><td> </td></tr>
 <tr><td>10/20-22</td><td><strong>★<a href="#csjfesta">CSJ化学フェスタ</a></strong></td><td>東京都江戸川区</td><td>7,000 円</td><td>7/2(木)</td><td> </td></tr>
 <tr><td>10/27-28</td><td><a href="#cyano">藍藻の分子生物学</a></td><td>愛知県豊橋市</td><td>1,000 円</td><td>未発表</td><td>隔年開催</td></tr>
 <tr><td>10/28-30</td><td><a href="#peptide">ペプチド討論会</a></td><td>広島県広島市</td><td>4,000 円 (昨年)</td><td>8/11 (昨年)</td><td> </td></tr>
 <tr><td>12/1-4</td><td><a href="#bmb">日本分子生物学会 年会</a></td><td>神奈川県横浜市</td><td>3,000 円</td><td>7/14(水)</td><td> </td></tr>
-<tr><td>12/7-9</td><td><a href="#molsim">分子シミュレーション討論会</a></td><td>福岡県福岡市</td><td>3,000 円 (昨年)</td><td>9/15</td><td> </td></tr>
+<tr><td>12/7-9</td><td><a href="#molsim">分子シミュレーション討論会</a></td><td>福岡県福岡市</td><td>3,000 円 (昨年)</td><td>9/15(火)</td><td> </td></tr>
 <tr><td>3/9-12</td><td><a href="#jsbba">日本農芸化学会年次大会</a></td><td>愛知県名古屋市</td><td>3,000 円 (昨年)</td><td>11/20 (昨年)</td><td> </td></tr>
 <tr><td>3/23-26</td><td><strong>★<a href="#csjmeet">日本化学会春季年会</a></strong></td><td>千葉県野田市</td><td>5,000 円 (昨年)</td><td>11/27 (昨年)</td><td> </td></tr>
 <tr><td>3/25-28</td><td><a href="#medmeet">日本薬学会 年会</a></td><td>東京都八王子市</td><td>3,000 円 (昨年)</td><td>11/21 (昨年)</td><td> </td></tr>
@@ -77,12 +78,30 @@ parent: 学会・イベント関連
 
 ### <a name="dokuso">[トキシンシンポジウム](https://sites.google.com/kyoto-u.ac.jp/72nd-symposium-on-toxins/)</a>
 - 開催日：9月2日(水) - 9月4日(金)
-- 演題登録期限：6月5日
+- 演題登録期限：6月5日(金)
 - 会場：ホテルビナリオ嵯峨嵐山 (京都府京都市　JR嵯峨嵐山駅)
 - 参加費：35,000 円 (食費・宿泊費込)
 - 発表形式：若手奨励演題 (口頭) / 交流演題 (口頭 or ポスター)
 - 備考：
   > 若手奨励演題は奨励賞あり
+
+<details>
+<summary>過去の参加履歴</summary>
+
+- 2025年：参加なし<br>
+- 2024年：参加なし<br>
+- 2023年：参加なし<br>
+
+</details>
+
+### <a name="jsmrs">[日本微生物資源学会大会](https://www.jsmrs.jp/ja/)</a>
+- 開催日：9月2日(水) - 9月4日(金)
+- 演題登録期限：7月3日(金)
+- 会場：石巻専修大学 (宮城県石巻市　JR石巻駅)
+- 参加費：3,000 円
+- 発表形式：口頭/ポスター
+- 備考：
+  > 口頭発表賞1題、ポスター発表賞2題
 
 <details>
 <summary>過去の参加履歴</summary>
@@ -114,7 +133,7 @@ parent: 学会・イベント関連
 
 ### <a name="medkanto">[日本薬学会関東支部大会](https://shibu.pharm.or.jp/kanto/shibutaikai_70/)</a>
 - 開催日：9月12日(土)
-- 演題登録期限：7月27日
+- 演題登録期限：7月27日(月)
 - 会場：国際医療福祉大学 大田原キャンパス (栃木県大田原市 JR西那須野駅)
 - 参加費：2,500 円
 - 発表形式：口頭/ポスター
