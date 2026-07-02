@@ -1,6 +1,6 @@
 ---
 title: PGME法
-parent: スペクトル関連
+parent: NMR関連
 nav_order: 150
 ---
 
