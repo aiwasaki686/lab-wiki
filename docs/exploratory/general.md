@@ -1,7 +1,7 @@
 ---
 title: 天然物探索全般
 nav_order: 10
-parent 天然物探索関連
+parent: 天然物探索関連
 has_children: true
 ---
 
