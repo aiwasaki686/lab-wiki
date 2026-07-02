@@ -1,6 +1,6 @@
 ---
 title: 改良Mosher法
-parent: スペクトル関連
+parent: NMR関連
 nav_order: 140
 ---
 
