@@ -1,5 +1,5 @@
 ---
-title: キラルカラム
+title: MSMS測定・解析
 parent: スペクトル関連
 nav_order: 550
 ---
