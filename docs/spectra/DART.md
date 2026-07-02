@@ -74,7 +74,7 @@ nav_order: 540
 <!-- 画像: Tune / Acquisition タブの設定画面 -->
 <img src="../../images/DART-3.png" alt="Tuneタブ設定画面" width="400">
 
-**＜各パラメータの設定例（推奨範囲）＞** <span style="color:red;">あまりいじったことはない by編集者</span>
+**＜各パラメータの設定例（推奨範囲）＞** <span style="color:blue;">あまりいじったことはない by編集者</span>
 
 
 | パラメータ | 推奨値 | 推奨範囲 |
