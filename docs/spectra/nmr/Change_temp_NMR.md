@@ -1,6 +1,6 @@
 ---
 title: 低温測定高温測定
-parent: スペクトル関連
+parent: NMR関連
 nav_order: 160
 ---
 
