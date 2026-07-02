@@ -15,9 +15,9 @@ nav_order: 590
 
 ## 溶液調製
 
-- 1.0% L-FDLA溶液 | L-FDLA 1 mgをAcetone 100 μLに溶解する。 |
-- 1 M NaHCO₃水溶液 | 1 Mとなるよう調製する。 |
-- 1 M HCl水溶液 | 1 Mとなるよう調製する。 |
+- 1.0% L-FDLA溶液：L-FDLA 1 mgをAcetone 100 μLに溶解する。
+- 1 M NaHCO₃水溶液：1 Mとなるよう調製する。
+- 1 M HCl水溶液：1 Mとなるよう調製する。
 
 
 # 標品の反応条件
