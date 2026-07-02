@@ -1,6 +1,6 @@
 ---
 title: 抽出と濾過
-parent: 天然物探索関連
+parent: 天然物探索全般
 has_children: true
 nav_order: 10
 ---
