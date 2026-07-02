@@ -1,7 +1,11 @@
 ---
 title: 採集関連
-nav_order: 60
+nav_order: 90
 ---
+
+## 採集準備リスト
+
+- [採集準備リスト](docs/sample_collection/saishu.md)
 
 ## 採集関連リンク
 - <a href="https://drive.google.com/drive/folders/17gg91-rrNG9dnzA-K31iILz9lInrKJ5X?usp=drive_link" target="_blank" rel="noopener">採集記録</a>
