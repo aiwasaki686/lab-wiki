@@ -1,6 +1,6 @@
 ---
 title: MSMS測定・解析
-parent: スペクトル関連
+parent: MS関連
 nav_order: 550
 ---
 
