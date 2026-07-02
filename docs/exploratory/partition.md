@@ -2,7 +2,7 @@
 title: 分液
 parent: exploratory
 has_children: true
-nav_order: 10
+nav_order: 30
 ---
 # 分液操作
 
