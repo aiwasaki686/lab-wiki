@@ -4,6 +4,8 @@ parent: 報告会関連
 nav_order: 10
 ---
 # 報告書の書き方
+> 最終更新：2026-07-02  
+> 最終編集者：坪井
 
 実験や研究の内容を正確に伝えるために、報告書は決められた形式で作成します。  
 このページでは、基本的な構成と書き方を紹介します。
@@ -14,7 +16,7 @@ nav_order: 10
 
 報告書は、以下のテンプレートを使用して作成してください。
 
-- <[報告書テンプレート（Google Drive）](https://drive.google.com/drive/folders/1M5CcdAZl3pTqY09vc8v0iC6kZ63RKic-)
+- [報告書テンプレート（Google Drive）](https://drive.google.com/drive/folders/1M5CcdAZl3pTqY09vc8v0iC6kZ63RKic-)
 ---
 
 ## 1ページ目の記載方法
@@ -44,6 +46,7 @@ nav_order: 10
 - 必要に応じて、生物活性や既知化合物の情報
 
 ODS後のフラクションから分けて記載
+
 分岐している実験は、どのフラクションからどのような作業を行っているかが分かるように整理して記載します。
 
 ### 中断中の実験
