@@ -1,7 +1,6 @@
 ---
-title: 変温測定
-parent: spectra
-has_children: true
+title: 低温測定高温測定
+parent: スペクトル関連
 nav_order: 160
 ---
 
