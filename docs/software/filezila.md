@@ -21,9 +21,10 @@ nav_order: 30
 
 ### 3.1 インストーラーの取得
 
-1.  FileZilla公式サイトへアクセスする。
-2.  **「Download FileZilla Client」**をクリックする。
-3.  Windows版インストーラーをダウンロードする。
+1.  <a href="https://FileZilla - The free FTP solution/" target="_blank" rel="noopener">FileZila公式
+2.  サイト</a>へアクセスする。
+3.  **「Download FileZilla Client」**をクリックする。
+4.  Windows版インストーラーをダウンロードする。
 
 ### 3.2 インストール
 
