@@ -3,6 +3,10 @@ title: 試薬、器具の購入と管理
 nav_order: 10
 ---
 
+## 物品購入ルール
+
+-[物品購入ルール](purchase/purchase.md)
+
 ## 試薬注文先リンク
 - <a href="https://www.wakeng-onlineshop.jp/wos/Login/" target="_blank" rel="noopener">薬研社</a>　富士フィルム和光純薬系の注文
 - <a href="https://docs.google.com/spreadsheets/d/10km2WtUL81ZXe7cddz9tV2qpsdf1ngLlYfMRHnl4qW4/edit?usp=sharing" target="_blank" rel="noopener">山本薬品</a>　ナカライテスク系の注文
