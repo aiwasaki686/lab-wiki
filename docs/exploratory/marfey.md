@@ -1,24 +1,24 @@
-
 ---
 title: Marfey法
 parent: exploratory
+has_children: true
 nav_order: 590
 ---
 
+
 ## 使用試薬
 
-| 試薬 | 用途 |
-| 各種アミノ酸標品 | 標品 |
-| 5-Fluoro-2,4-dinitrophenyl-L-Leucinamide (L-FDLA) | 誘導体化試薬 |
-| NaHCO₃ | 塩基 |
-| HCl | 反応停止 |
+試薬
+- 各種アミノ酸標品
+- 5-Fluoro-2,4-dinitrophenyl-L-Leucinamide (L-FDLA)
+- NaHCO₃
+- HCl
 
 ## 溶液調製
 
-| 溶液 | 調製方法 |
-| 1.0% L-FDLA溶液 | L-FDLA 1 mgをAcetone 100 μLに溶解する。 |
-| 1 M NaHCO₃水溶液 | 1 Mとなるよう調製する。 |
-| 1 M HCl水溶液 | 1 Mとなるよう調製する。 |
+- 1.0% L-FDLA溶液 | L-FDLA 1 mgをAcetone 100 μLに溶解する。 |
+- 1 M NaHCO₃水溶液 | 1 Mとなるよう調製する。 |
+- 1 M HCl水溶液 | 1 Mとなるよう調製する。 |
 
 
 # 標品の反応条件
