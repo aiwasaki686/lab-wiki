@@ -1,8 +1,12 @@
 ---
 title: 学会・イベント関連
-nav_order: 80
+nav_order: 100
 has_children: true
 ---
+
+## 発表準備
+
+- [ポスター印刷](docs/event/poster.md)
 
 ## 学会情報
 
