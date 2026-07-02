@@ -1,6 +1,6 @@
 ---
 title: 液体窒素
-parent: exploratory
+parent: 天然物探索関連
 has_children: true
 nav_order: 110
 ---
