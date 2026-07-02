@@ -168,10 +168,11 @@ DNA抽出液としてPCR反応液を調製する。
 
 | Step | 温度 | 時間 | 回数 |
 |------|-----:|-----:|-----:|
-| Initial Denaturation | 94 ℃ | 2 min | 1 |
-| Denaturation | 98 ℃ | 10 sec | |
-| Annealing | 58 ℃ | 10 sec | **40 cycles** |
-| Extension | 68 ℃ | 1 min | |
+| Initial Denaturation | 95 ℃ | 3 min | 1 |
+| Denaturation | 95 ℃ | 30 sec | |
+| Annealing | 55 ℃ | 15 sec | **30 cycles** |
+| Extension | 72 ℃ | 1 min | |
+| Extension | 72 ℃ | 5 min | |
 | Hold | 4 ℃ | ∞ | |
 
 ---
