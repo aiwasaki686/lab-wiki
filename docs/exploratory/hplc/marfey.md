@@ -1,6 +1,6 @@
 ---
 title: Marfey法
-parent: 天然物探索関連
+parent: LC関連
 nav_order: 590
 ---
 
