@@ -1,6 +1,6 @@
 ---
 title: 各種届出
-nav_order: 90
+nav_order: 800
 has_children: true
 ---
 
