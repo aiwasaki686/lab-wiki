@@ -29,7 +29,8 @@ nav_order: 10
 - **中断中の実験**
 - **別途進行中の作業**
 
-![1ページ目の記載例](報告書_1ページ.png)
+<img width="428" height="395" alt="スクリーンショット 2026-07-02 133126" src="https://github.com/user-attachments/assets/3c1731cd-5ba5-468f-982c-c0352dd3d8ba" />
+
 
 ### 現在進行中の実験
 
