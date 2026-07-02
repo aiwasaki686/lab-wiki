@@ -4,10 +4,11 @@ parent: spectra
 nav_order: 540
 ---
 
-
 # DART-SVP イオン源 簡易操作テキスト
+>最終更新：2026-07-02  
+> 最終編集者：渡邉
 
-> JEOL 日本電子株式会社　|　msAxel@LP4G-DART Ver. 1.0_201706
+> 参照：JEOL 日本電子株式会社　|　msAxel@LP4G-DART Ver. 1.0_201706
 
 ---
 
@@ -227,5 +228,3 @@ DART には下記の特徴がある。
 　※ N2 ガスを使用した場合、He ガス使用時に比べて低感度である。
  
 ---
-
-*参照：「DART-SVP イオン源　簡易操作テキスト」（JEOL 日本電子株式会社、msAxel@LP4G-DART Ver. 1.0_201706）*
