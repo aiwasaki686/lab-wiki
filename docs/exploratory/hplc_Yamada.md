@@ -96,18 +96,37 @@ nav_order: 520
 
 <img width="528" height="425" alt="image" src="https://github.com/user-attachments/assets/04934e3e-b8e8-4d95-834b-5c0e73189928" />
 
-Jasco- MD-4015 (元々あったPDA検出器HPLC)
+
 
 
 11. 仮想チャンネル波長設定の「#9」「#10」「#11」のチェックボックスを選択し、それぞれ215 nm、254 nm、365 nmに設定する。
 
 <img width="526" height="425" alt="image" src="https://github.com/user-attachments/assets/ada3ac01-6fbf-448f-a6c2-710e5248069d" />
 
-Jasco MD-2010Plus (山田研HPLC)
+
 
 
 12. その他の設定には触れずに左上の「保存」を押す。  
 ファイル名には「analysis」と記入し、「保存」を押す。
-```
+## Jasco MD-4015との比較
 
-`parent: 実験操作` と `nav_order: 3` は、Wikiの階層や順番に合わせて変えてください。
+同一のサンプルの分析結果を示す。NW-1-139-6, 90%MeOH, Cholester, 1 mL/min
+
+<br>
+
+### Jasco MD-4015（元々あったPDA検出器HPLC）
+
+<img width="535" height="390" alt="image" src="https://github.com/user-attachments/assets/6f0af959-4a42-4081-a6b2-d8c7520b8ecb" />
+
+
+<br>
+
+### Jasco MD-2010Plus（山田研PDA検出器HPLC）
+
+<img width="517" height="406" alt="image" src="https://github.com/user-attachments/assets/a3bdd05a-07c7-4924-a19d-39a7cdc328d6" />
+
+
+<br>
+
+0-2min程度にかけて、上には無いピークが見えるが、これはゴーストピーク（ゴミ）かもしれない。  
+その他はほぼ一致しており、使用に遜色がないと思われる。
