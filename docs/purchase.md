@@ -5,7 +5,7 @@ nav_order: 10
 
 ## 物品購入ルール
 
--[物品購入ルール](purchase/purchase.md)
+- [物品購入ルール](purchase/purchase.md)
 
 ## 試薬注文先リンク
 - <a href="https://www.wakeng-onlineshop.jp/wos/Login/" target="_blank" rel="noopener">薬研社</a>　富士フィルム和光純薬系の注文
