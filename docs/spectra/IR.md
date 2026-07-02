@@ -49,16 +49,16 @@ nav_order: 1010
 
 3-5<br>
 - 「積算回数」「測定範囲」を適宜調整する
-- 「OK」を押すと測定が始まる<br><img src="/images/IR_7.png" alt="" width="25%"><br>
+- 「OK」を押すと測定が始まる<br><img src="/images/IR_7.png" alt="sokuteijoukenn" width="25%"><br>
 
 3-6<br>
-- 緑のゲージが右端に達し、左下に「レディ」と表示されたら測定完了
+- 緑のゲージが右端に達し、左下に「レディ」と表示されたら測定完了<br><img src="/images/IR_8.png" alt="redi" width="25%"><br>
 
 **4.サンプル測定<br>**
 
 4-1<br>
 - サンプルホルダーを取り出して分解し、岩塩版が1枚乗っている状態にする
-- パスツールピペットを用いて岩塩版の中央にサンプルを一滴垂らす
+- パスツールピペットを用いて岩塩版の中央にサンプルを一滴垂らす<br><img src="/images/IR_9.png" alt="itteki" width="25%"><br>
 
 4-2<br>
 - 〈通常測定〉<br>
@@ -66,18 +66,18 @@ nav_order: 1010
 溶液が伸びて膜になっていればOK<br>
 〈微量天然物測定〉
 岩塩版に垂らした液が乾いて膜になるまで待つ
-縦にして溶液が垂れてこなければOK
+縦にして溶液が垂れてこなければOK<br><img src="/images/IR_10.png" alt="kawakasu" width="25%"><br>
 
 4-3<br>
-- BGと同様にサンプルホルダーを組み立て、測定装置の資料室にセットする
+- BGと同様にサンプルホルダーを組み立て、測定装置の資料室にセットする<br><img src="/images/IR_11.png" alt="setto" width="25%"><br>
 
 4-4<br>
 - 「スペクトル測定」ウィンドウの「P+サンプル」を選択
-- 測定条件の画面が開く
+- 測定条件の画面が開く<br><img src="/images/IR_12.png" alt="P+sanpuru" width="25%"><br>
 
 4-5<br>
 - 「積算回数」「測定範囲」を適宜調整する
-- 「OK」を押すと測定が始まる
+- 「OK」を押すと測定が始まる<br><img src="/images/IR_13.png" alt="sokuteijoukenn2" width="25%"><br>
 
 4-6<br>
 - 緑のゲージが右端に達し、左下に「レディ」と表示されたら測定完了
