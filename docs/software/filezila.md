@@ -1,6 +1,6 @@
 ---
 title: FileZila
-parent: software
+parent: PCソフト入れ方・使い方
 has_children: true
 nav_order: 30
 ---
