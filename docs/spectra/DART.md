@@ -1,6 +1,6 @@
 ---
 title: DART
-parent: spectra
+parent: スペクトル関連
 nav_order: 540
 ---
 
