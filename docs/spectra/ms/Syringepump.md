@@ -41,6 +41,10 @@ nav_order: 510
 
 > ⚠️ 強く押し付けない。
 
+※シリンジ選定の際の参考画像
+<img width="827" height="1252" alt="Image (6)" src="https://github.com/user-attachments/assets/c01cbbe3-d929-42c7-bb6e-4f9d61df0e12" />
+
+
 ------------------------------------------------------------------------
 
 # STEP 3　シリンジ設定
