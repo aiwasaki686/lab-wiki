@@ -70,7 +70,8 @@ Customの場合は
 
 # STEP 4　送液量 (Volume) を設定
 
-📷 **写真3をここに追加**
+<img width="4031" height="3023" alt="Image (3)" src="https://github.com/user-attachments/assets/d15a2211-3db2-4609-9d49-ba2476653b76" />
+
 
 例
 
@@ -84,7 +85,7 @@ Customの場合は
 
 # STEP 5　流量 (Rate) を設定
 
-📷 **写真4をここに追加**
+<img width="4031" height="3023" alt="Image (4)" src="https://github.com/user-attachments/assets/c1298668-6738-4c04-98a5-1435133335e3" />
 
 例
 
@@ -102,11 +103,12 @@ Select Unitsから
 
 # STEP 6　送液開始
 
-📷 **写真5をここに追加**
+<img width="4031" height="3023" alt="Image (5)" src="https://github.com/user-attachments/assets/a7787a5a-5110-4271-ae9f-ffd1407c13ce" />
 
 START を押す。
 
-画面で以下を確認する。
+画面で以下を確認する。![Uploading Image (5).jpg…]()
+
 
 -   現在流量
 -   設定送液量
