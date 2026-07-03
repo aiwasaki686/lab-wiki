@@ -107,7 +107,7 @@ Select Unitsから
 
 START を押す。
 
-画面で以下を確認する。![Uploading Image (5).jpg…]()
+画面で以下を確認する。
 
 
 -   現在流量
