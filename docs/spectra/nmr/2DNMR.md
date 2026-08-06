@@ -1,7 +1,7 @@
 ---
 title: COSY,HMQC,HSQC,HMBC,NOESY,ROESY,TOCSY
 nav_order: 50
-parent: スペクトル関連
+parent: NMR関連
 ---
 
 # 2次元NMR (COSY,HMQC,HSQC,HMBC,NOESY,ROESY,TOCSY) 測定方法
