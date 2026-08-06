@@ -1,5 +1,5 @@
 ---
-title: COSY,HMQC,HSQC,HMBC,NOESY,ROESY,TOCSY
+title: 2次元NMR測定方法
 nav_order: 50
 parent: NMR関連
 ---
