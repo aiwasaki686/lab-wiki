@@ -30,3 +30,23 @@ scan で測定時間をいじる。何の倍数にすればいいかは scans �
 x軸プロトン/y軸カーボン(HMBCやHMQCなど)は続けて測定するとよい（force tune を最初だけに入れれば良いため、時間が削減できる）。<br>
 ex) COSY, HMQC, HMBC を1終夜で測定したい時<br>
 1H -> HMQC -> HMBC -> COSY の順で測定すると良い。（force tuneは HMQC だけに入れる）
+
+測定開始　<br>　<br>
+## ポイント : 2DNMRの位相の合わせ方（例：HSQC）<br>
+
+位相が合っていない状態
+
+<img src="../../../images/2DNMR-3.png" alt="電源ユニットスイッチ" width="500">
+
+① 「2次元位相補正ツール」を開く
+
+② ピークの中心を選択後、「スライス表示」を押す
+
+<img src="../../../images/2DNMR-1.png" alt="電源ユニットスイッチ" width="600">
+
+③ 1次元NMRの時と同様の方法で、X,Y軸それぞれの位相を合わせてから、「適用」
+
+<img src="../../../images/2DNMR-2.png" alt="DART-SVPソフトウェア起動画面" width="400">
+
+ 
+　※ 参照：[JASON Tips: 位相補正と化学シフト補正](https://www.jeol.co.jp/solutions/applications/details/NMJT_0004.html)
