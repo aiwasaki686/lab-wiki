@@ -1,5 +1,5 @@
 ---
-title: UV_CD_旋光度
+title: UV
 parent: スペクトル関連
 nav_order: 1020
 ---
