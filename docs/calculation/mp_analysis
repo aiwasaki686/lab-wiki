@@ -1,0 +1,273 @@
+# 分子系統解析プロトコル（実際の手順）
+
+> 作成：2026/10/24　渡邉
+> 参照：既存の「分子系統解析プロトコル」「分子系統解析プロトコル（2023改訂版）」
+
+実際の操作手順を詳しく記載したものである。見にくい箇所や説明が不正確な箇所があれば、適宜修正すること。
+
+---
+
+## 目次
+
+- [解析の流れ](#解析の流れ)
+- [1. データセットの作成](#1-データセットの作成)
+- [2. MUSCLE を用いたアラインメント](#2-muscle-を用いたアラインメント)
+- [3. Gblocks による変換](#3-gblocks-による変換)
+- [4. MEGA を用いた不要な配列の削除](#4-mega-を用いた不要な配列の削除)
+- [5. jModelTest で最適な計算モデルを算出](#5-jmodeltest-で最適な計算モデルを算出)
+- [6. ClustalW2 によるファイル変換](#6-clustalw2-によるファイル変換)
+- [7. MrBayes による解析（ベイズ法）](#7-mrbayes-による解析ベイズ法)
+- [8. FigTree によるベイズ法での系統樹作成](#8-figtree-によるベイズ法での系統樹作成)
+- [9. PhyML による解析（ML 法）](#9-phyml-による解析ml-法)
+- [10. NJplot による ML 法での系統樹作成](#10-njplot-による-ml-法での系統樹作成)
+- [メモ](#メモ)
+
+---
+
+## 解析の流れ
+
+| 手順 | 内容 | 使用ソフト |
+|---|---|---|
+| 1 | データセットの作成 | MEGA、NCBI |
+| 2 | アラインメント | MEGA（MUSCLE） |
+| 3 | 解析に不適な領域の除去 | Gblocks |
+| 4 | 不要な配列の削除 | MEGA |
+| 5 | 最適な置換モデルの算出 | jModelTest |
+| 6 | ファイル形式の変換（NEXUS、PHYLIP） | ClustalW2 |
+| 7 | ベイズ法による解析 | MrBayes |
+| 8 | ベイズ法の系統樹の作成（事後確率の確認） | FigTree |
+| 9 | ML 法による解析 | PhyML |
+| 10 | ML 法の系統樹の作成（編集のフォーマット） | NJplot |
+
+---
+
+## 1. データセットの作成
+
+### 自分のサンプルの配列を追加する場合
+
+| 配列の状態 | 対応 |
+|---|---|
+| Forward と Reverse のどちらかしかきれいに読めていない | どちらかの生データについて、テキストファイルの前後を多少削った状態でデータセットに組み込む。 |
+| どちらもきれいに読めていそうである | 下記の手順で両者を統合する。 |
+
+**両方の配列がきれいに読めている場合**
+
+1. MEGA に両方の配列を貼り付ける。Reverse の結果は、右クリック → `Reverse Complement` を行う。
+2. `Alignment by Muscle` を実行する。
+3. 両者の配列が完全一致している箇所のみを抜き出して、データセットに組み込む。完全一致する配列が短い場合は、多少の不一致があっても、ある程度の長さになるよう調節している。
+
+### 関連するシアノバクテリアの配列を追加する場合
+
+関連するシアノバクテリアの配列データを、FASTA 形式で Word に記載する。その際、元データに以下の操作を行う。
+
+- `?` を削除する。
+- `{XX}` 形式の表記を一文字表記（R など）に変更する。
+
+### 配列データの収集方法（NCBI）
+
+1. NCBI のホームページにアクセスし、検索項目を `nucleotide` に変更する。
+2. 検索ウィンドウに Acc. No. を入力する。複数ある場合は `,` で区切る。その後、検索する。
+3. 左上の `Summary` をクリックし、format を `FASTA` にする。各塩基配列が FASTA 形式で表示される。
+4. 右下の `Send to` をクリックし、`Choose Destination` で `File` を選択して `Create File` をクリックする。データセットがダウンロードされる。
+
+> 栗澤さん作成のプロトコルも参照するとよい。
+
+---
+
+## 2. MUSCLE を用いたアラインメント
+
+上記で作成した配列ファイルを **MEGA** で開く。
+
+<img src="../../images/phylo-1.png" alt="MEGA の起動画面" width="400">
+
+1. `Create a new alignment` → `DNA` を選択する。
+2. 配列ファイルの中身をコピーし、画面上に貼り付ける。
+3. Reverse primer の結果を使用する場合は、`Data` → `Reverse complement` を忘れずに行う。
+
+<img src="../../images/phylo-2.png" alt="MEGA への配列貼り付け" width="400">
+<img src="../../images/phylo-3.png" alt="MEGA のアラインメント画面" width="400">
+
+4. 空白の sequence が残っている場合は削除する。
+5. FASTA 形式で出力する。
+
+---
+
+## 3. Gblocks による変換
+
+**Gblocks**：<http://phylogeny.lirmm.fr/phylo_cgi/index.cgi>
+
+解析に不適な配列を除去する。以下のオプションを選択する。
+
+- `Type of sequence`：`DNA`
+- `Allow smaller final blocks`
+- `Allow gap positions within the final blocks`
+- `Allow less strict flanking positions`
+
+<img src="../../images/phylo-4.png" alt="Gblocks のオプション設定 1" width="400">
+<img src="../../images/phylo-5.png" alt="Gblocks のオプション設定 2" width="400">
+
+解析は 5 分以内に終了する。下部の `Cured alignment in FASTA Format` から FASTA 配列を入手する。
+
+---
+
+## 4. MEGA を用いた不要な配列の削除
+
+上記のファイルを MEGA で開く（開き方は [2.](#2-muscle-を用いたアラインメント) と同様）。
+
+1. 一連の配列のうち、自分のサンプルの配列が存在する部分だけを残す。
+2. 空白の sequence が残っている場合は削除する。
+3. FASTA 形式で保存する。
+
+---
+
+## 5. jModelTest で最適な計算モデルを算出
+
+上記で得たアラインメントファイルを、**jModelTest 2.1.10** で解析する。
+
+1. `File` → `Load DNA alignment` で、上記のファイルを選択する。
+2. `Analysis` → `Compute likelihood scores` を選択し、計算を実行する。
+3. `Analysis` → `Do AIC calculations` を選択し、結果を得る。
+4. `Ctrl+A`、`Ctrl+C` で結果をすべてコピーし、メモ帳に保存する。
+
+以降の解析で以下のパラメーターを使用するため、結果を確認しておく（[PhyML](#9-phyml-による解析ml-法) で入力する）。
+
+- R(a)〜R(f)
+- fA、fC、fG、fT
+- p-inv
+- Gamma shape
+
+<img src="../../images/phylo-6.png" alt="jModelTest の結果" width="400">
+
+> **注意**
+> - MrBayes で選択できないモデルが選ばれた場合は、上位から順にたどり、MrBayes で選択できるモデルを使用すればよい。その際は「jModelTest で解析した結果、○○のモデルを使用することになった」と記載する。
+> - ML 法とベイズ法で異なるモデルを使用しても構わない。ただし、そのことは記載すること。
+> - 最適モデルとして GTR がよく選ばれるが、TIM など他のモデルになることもある。
+
+---
+
+## 6. ClustalW2 によるファイル変換
+
+解析したいアラインメントファイルを、NEXUS 形式と PHYLIP 形式に変換する。
+
+1. 変換したいファイル（[4.](#4-mega-を用いた不要な配列の削除) で作成）を `ClustalW2` フォルダに入れておく。
+2. `ClustalW2` を開き、`1. Sequence input from disc` からファイル名（拡張子を含む）を入力して読み込む。
+3. `2. Multiple alignments` を選択し、`9. Output format options` を選択する。
+4. `NEXUS (5)` と `PHYLIP (4)` を ON にする。初期設定で ON になっている `1` は OFF にする。
+5. `0. Create alignment output file(s) now?` を選択すると、変換が始まる。Enter キーを 20 回前後押し続けると終了する。
+6. しばらくすると、変換されたファイルが `ClustalW2` フォルダ内に出力される。拡張子を、それぞれ `nxs` → `nexus`、`phy` → `phylip` のように変更する。
+
+<img src="../../images/phylo-7.png" alt="ClustalW2 の操作画面" width="400">
+
+---
+
+## 7. MrBayes による解析（ベイズ法）
+
+1. NEXUS 形式のファイルを、MrBayes の入っているフォルダに入れておく（認識させるため）。種名に `-` があるとエラーが起きるため注意する。
+2. 以下のコマンドでデータを読み込む。
+
+   ```
+   execute filename.nexus
+   ```
+
+3. 以下を入力する。`nst=6` は進化モデルに GTR を選択することを意味する。jModelTest で GTR 以外が選ばれた場合も、この操作は変わらない。
+
+   ```
+   lset nst=6 rates=invgamma
+   ```
+
+4. 以下で MCMC（Markov chain Monte Carlo）法の試行回数を 100 万回にセットする。サンプリング頻度のデフォルトは 500 のため、特に入力する必要はない（計算終了までに約 23 分）。
+
+   ```
+   mcmc ngen=1000000
+   ```
+
+<img src="../../images/phylo-8.png" alt="MrBayes の実行画面" width="400">
+
+5. 計算終了後、`Continue with analysis?` と表示されるので、`no` と入力する。
+6. 以下で、最初の 10%（100000 trees）を burn-in として削除する。この際に生じる系統樹は、burn-in が反映されたものである。
+
+   ```
+   sumt relburnin=yes burninfrac=0.10
+   ```
+
+7. `MrBayes` フォルダ内にある自分のファイルは、すべて自分のフォルダに移しておく。
+
+> **メモ**
+> `the standard deviation of split frequencies` が 0.012 であった（0.01 以下ではなかった）が、そのまま先に進めた。
+
+---
+
+## 8. FigTree によるベイズ法での系統樹作成
+
+<img src="../../images/phylo-9.png" alt="FigTree の画面" width="400">
+
+1. `File` → `Open` で、拡張子 `.tre` のファイルを開く。
+2. 樹形図から *Gloeobacter violaceus* PCC7421（NC005125）を探してダブルクリックする。罫線が青くなる。
+3. `Reroot` を押して、*Gloeobacter* を樹形図の端に置く。
+4. 左のコマンド一覧から `Node Labels` にチェックを入れる。▶ を開き、`Display` を `Prob` に変更する。事後確率が表示される。
+
+> この樹形図自体は使わないが、手順 4 で表示した事後確率を使用する。PDF に変換するなどして、保管・印刷しておくとよい。
+
+---
+
+## 9. PhyML による解析（ML 法）
+
+1. 変換した PHYLIP 形式のファイルを、PhyML の入っているフォルダに入れておく（認識させるため）。
+2. ファイル名を入力してデータを読み込む。
+3. 続いて、計算条件を設定する。
+
+   | 項目 | 設定 |
+   |---|---|
+   | Model of nucleotide substitution | `Custom` にする。`current custom model` に `012345`（GTR のこと）と入力する。jModelTest で GTR 以外が選ばれた場合も、この操作は変わらない。その後に聞かれる 6 つのパラメーターに、jModelTest で得られた R(a)〜R(f) の値を入力する。 |
+   | Equilibrium frequencies | jModelTest の結果の fA、fC、fG、fT を入力する。 |
+   | Proportion of invariable sites | `n` を入力し、p-inv の値を入力する。 |
+   | Gamma distribution parameter | `n` を入力し、Gamma shape の値を入力する。 |
+   | Non parametric bootstrap analysis | `replicates` として `1000` を入力し、`print trees` を `yes` にする。 |
+
+4. 最後に `y` を入力して Enter を押す。計算には一晩かかる。終了後、ソフトは自動的に閉じる。
+
+> **ポイント**
+> - fA〜fT の値を入力するために、`Custom` を使うことがポイントである。
+> - 使用する CPU の数を増やすことで、計算を速めることもできる。
+> - 解析後に 2 通りの系統樹ファイルが作成されるが、一方は bootstrap 値が出ないため、出る方を使用する。
+
+> **生成されたファイルが 0 KB だった場合**
+> 以下の点を確認する。
+> - サンプル名が重複していないか。
+> - データセット内のサンプル名に、半角スペース、`.`、`,` が含まれていないか。
+> - サンプル名が長すぎないか（関係があるかは不明）。
+
+---
+
+## 10. NJplot による ML 法での系統樹作成
+
+1. **NJplot** で `_phyml_tree.txt` 形式のファイルを開く。bootstrap 値が出るのはこちらのみである。
+2. `Operation` → `New outgroup` にチェックを入れ、*Gloeobacter violaceus* PCC7421 の Acc. No. をダブルクリックする。この種が系統樹の一番下に移動する。
+3. `Display` → `Bootstrap values` にチェックを入れる。bootstrap 値が表示される。
+4. `File` → `Print` → PDF で変換する。
+
+> **ベイズ法で作成した系統樹ではなく、こちらをフォーマットとして編集する。**
+
+### 系統樹の編集
+
+- 系統樹の形を、類似する文献になるべく似せて整える。完全には一致しなくてもよい（確率が低い分岐が存在するため。こうした部分は再現性が悪い）。
+- 「学名　株名（Acc. No.）」の体裁に整える。類似する文献をもとに、記載学名を確認しながら行う。
+  例：*Caldora* sp. NAB11-29 (KF746597)
+- 「ブートストラップ確率/事後確率」を node に記載する。例：83/1.0
+  - ブートストラップ確率は、ML 法系統樹の bootstrap 値を全体の試行回数で割って計算する。70% 以上を記載する。
+  - 事後確率は、ベイズ法系統樹で `Prob` を選択して表示させる。0.9 以上を記載する。
+
+---
+
+## メモ
+
+- 他の論文の SI などに掲載されているシークエンスデータを利用する際は、拡張子を変更して MEGA で開くと読めることがある。例：Clustal 形式の場合、必要な部分を残して拡張子を `.aln` に変更したところ、読み込めた。
+- FASTA → NEXUS の Web ページを用いた変換がうまくいかない場合は、以下を試す。
+  1. MEGA を使って NEXUS 形式に変換する。
+  2. 得られた NEXUS ファイルをメモ帳で開き、うまくいったときの NEXUS 形式のデータを参考に、形式を書き換える。
+- データ形式の変換がうまくいかない場合は、ClustalW2 を使うのもよい（手順は [6.](#6-clustalw2-によるファイル変換) を参照）。生成したファイルの拡張子は、手動で入力すること。
+- 学名のイタリック表記には、属や種という意味も含まれる。したがって「genus *Lyngbya*」は誤りで、「genus Lyngbya」が正しい。
+- 系統解析では、clade の形成から属までは言えるが、実際の種の同定には形態を使うのではないか（要確認）。
+- 一属一種である場合は、属の同定をもって種の同定としてよい。
+- 同一条件で複数回系統樹を作成した場合、bootstrap 値の低い分岐は再現されにくい。そのため、参考にした系統樹が完全に再現されなくてもよい。
+- GTR モデルは大まかなモデルであり、その中に TIM などがあるというイメージである。
