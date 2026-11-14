@@ -7,8 +7,8 @@ has_children: true
 
 ## MS関連
 
-- [シリンジポンプ](docs/spectra/Syringepump.md)
-- [ESI](docs/spectra/ESI.md)
-- [標準試料](docs/spectra/MS_standardsample.md)
-- [DART](docs/spectra/ms/DART.md)
-- [MSMS測定・解析](docs/spectra/MSMS.md)
+- [シリンジポンプ](ms/Syringepump.md)
+- [ESI](ms/ESI.md)
+- [標準試料](ms/MS_standardsample.md)
+- [DART](ms/DART.md)
+- [MSMS測定・解析](ms/MSMS.md)
