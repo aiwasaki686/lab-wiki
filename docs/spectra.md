@@ -6,8 +6,8 @@ has_children: true
 
 ## スペクトル関連
 
-### [NMR関連](docs/spectra/nmr.md)
-### [MS関連](docs/spectra/ms.md)
+- [NMR関連](docs/spectra/nmr.md)
+- [MS関連](docs/spectra/ms.md)
 
 ### その他
 - [IR](docs/spectra/IR.md)
