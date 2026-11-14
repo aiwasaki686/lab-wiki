@@ -10,5 +10,5 @@ has_children: true
 - [シリンジポンプ](docs/spectra/Syringepump.md)
 - [ESI](docs/spectra/ESI.md)
 - [標準試料](docs/spectra/MS_standardsample.md)
-- [DART](docs/spectra/DART.md)
+- [DART](docs/spectra/ms/DART.md)
 - [MSMS測定・解析](docs/spectra/MSMS.md)
