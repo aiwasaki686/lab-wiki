@@ -5,7 +5,7 @@ nav_order: 20
 
 ## 報告書作成ルール
 
-- [報告書作成ルール](meeting/reportmeeting.md)
+- [報告書の書き方](meeting/meeting.md)
 
 ## 会場
 - 前期授業期間　
