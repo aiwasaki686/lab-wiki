@@ -6,9 +6,9 @@ has_children: true
 
 ## スペクトル関連
 
-- [NMR関連](docs/spectra/nmr.md)
-- [MS関連](docs/spectra/ms.md)
+- [NMR関連](spectra/nmr.md)
+- [MS関連](spectra/ms.md)
 
 ### その他
-- [IR](docs/spectra/IR.md)
-- [CD,UV,旋光度](docs/spectra/UV_CD_OR.md)
+- [IR](spectra/IR.md)
+- [CD,UV,旋光度](spectra/UV_CD_OR.md)
