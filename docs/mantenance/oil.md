@@ -1,3 +1,9 @@
+---
+title: 真空ポンプのオイル交換
+parent: mantenance
+has_children: true
+nav_order: 10000
+---
 # 真空ポンプのオイル交換方法
 
 ## 1. 準備するもの
