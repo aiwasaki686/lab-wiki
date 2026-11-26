@@ -19,6 +19,7 @@ nav_order: 120
 G-actin は重合して F-actin を形成し、F-actin は脱重合によって G-actin へと戻る。この重合・脱重合の動的な平衡によって、細胞骨格の構造が維持・再構築されている。
 
 この平衡が化合物によって阻害されると、細胞内のアクチン細胞骨格の動態が変化し、細胞形態や運動などに影響を及ぼす可能性がある。
+
 ※ HeLa 細胞の場合、丸く形態変化するため、試験開始後 1 ~ 4 時間くらいで観察するとよい。
 
 ### <a name="actin">[アクチン蛍光染色実験]</a>
@@ -55,6 +56,7 @@ G-actin は重合して F-actin を形成し、F-actin は脱重合によって 
    - PBS(+) はウェル側面を伝わせながら静かに加える。
 
 PBS(-):Ca2+, Mg2+ が含まれていないリン酸緩衝液。細胞の洗浄に使用される。
+
 PBS(+):Ca2+, Mg2+ が含まれているリン酸緩衝液。Mg2+、Ca2+が細胞の接着に関与しているため、細胞の生理的な環境に近い条件を維持する目的で使用される。
 
 ### 4. 固定（染色時点の細胞内の F-actin を保持するため）
@@ -73,13 +75,17 @@ PBS(+):Ca2+, Mg2+ が含まれているリン酸緩衝液。Mg2+、Ca2+が細胞
 
 遮光して以下を調製する。
 
-- Rhodamine-phalloidin
-- Hoechst33258（4 μg/mL）
+- Rhodamine-phalloidin : F-actin を染色する
+- 
+- Hoechst33258（4 μg/mL） : 細胞の核を染色する
 
 各試薬会社のサイトにプロトコルが掲載されている。
 ・Rhodamine Phalloidin Reagent (ab235138)
+
 https://www.abcam.co.jp/products/reagents/rhodamine-phalloidin-reagent-ab235138
+
 ・Hoechst (33258)
+
 https://www.dojindo.co.jp/products/H341/
 
 ### 6. 細胞膜透過処理
@@ -116,7 +122,7 @@ https://www.dojindo.co.jp/products/H341/
 1. 暗所で保管する。
 2. 共焦点レーザー顕微鏡で観察する。
 
-
+※ 重合と脱重合のどちらを阻害しているかを評価するには、ピレン標識アクチンを用いた蛍光強度測定が必要（非常に高価）。
 
 
 ### <a name="clsm">[CLSM使用マニュアル]</a>
