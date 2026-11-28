@@ -6,15 +6,15 @@ has_children: true
 
 ## 反応・合成関連
 
-- [窒素置換・風船作り方](docs/reaction/nitrogen.md)
-- [再結晶](docs/reaction/recrystallization.md)
-- [低温反応機](docs/reaction/ltmachine.md)
-- [オゾン分解](docs/reaction/ozonolysis.md)
-- [酸加水分解](docs/reaction/acidhydrolysis.md)
-- [危険試薬の処理・安全なクエンチ法](docs/reaction/workup.md)
-- [TLCコツ](docs/reaction/tlc_tips.md)
-- [シリンジ操作](docs/reaction/sirinji.md)
-- [空気敏感試料等の秤量](docs/reaction/hyouryou2.md)
+- [窒素置換・風船作り方](reaction/nitrogen.md)
+- [再結晶](reaction/recrystallization.md)
+- [低温反応機](reaction/ltmachine.md)
+- [オゾン分解](reaction/ozonolysis.md)
+- [酸加水分解](reaction/acidhydrolysis.md)
+- [危険試薬の処理・安全なクエンチ法](reaction/workup.md)
+- [TLCコツ](reaction/tlc_tips.md)
+- [シリンジ操作](reaction/sirinji.md)
+- [空気敏感試料等の秤量](reaction/hyouryou2.md)
 - [高温反応機、オイルバス](docs/reaction/heatingdevice.md)
 
 ### TLC関連
