@@ -14,7 +14,7 @@ has_children: true
 - [危険試薬の処理・安全なクエンチ法](reaction/workup.md)
 - [シリンジ操作](reaction/sirinji.md)
 - [空気敏感試料等の秤量](reaction/hyouryou2.md)
-- [高温反応機、オイルバス](docs/reaction/heatingdevice.md)
+- [高温反応機、オイルバス](reaction/heatingdevice.md)
 
 ### TLC関連
 - [TLCコツ](reaction/tlc_tips.md)
