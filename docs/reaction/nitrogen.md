@@ -1,6 +1,6 @@
 ---
 title: 窒素置換および窒素風船の作り方
-parent: reaction
+parent: 反応・合成関連
 nav_order: 10
 ---
 
