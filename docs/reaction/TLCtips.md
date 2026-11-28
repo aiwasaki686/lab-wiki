@@ -1,7 +1,7 @@
 ---
 title: TLCコツ
 parent: 反応・合成関連
-nav_order: 80
+nav_order: 500
 ---
 
 # TLCのコツ
