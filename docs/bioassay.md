@@ -12,15 +12,15 @@ nav_order: 50
 - [インキュベーター解体起動](bioassay/general/incubator.md)
 
 ### 活性試験プロトコル
-- [HeLa 活性試験](bioassay/HeLa.md)
-- [HL60 活性試験](bioassay/HL60.md)
-- [Newro2A 培養・活性試験](bioassay/Neuro.md)
-- [セリンプロテアーゼ](bioassay/serineprotease.md)
-- [カテプシンD](bioassay/catdassay.md)
-- [アクチン](bioassay/actinassay.md)
-- [トリパンブルー色素排出試験](bioassay/tripan.md)
+- [HeLa 活性試験](bioassay/protocol/HeLa.md)
+- [HL60 活性試験](bioassay/protocol/HL60.md)
+- [Newro2A 培養・活性試験](bioassay/protocol/Neuro.md)
+- [セリンプロテアーゼ](bioassay/protocol/serineprotease.md)
+- [カテプシンD](bioassay/protocol/catdassay.md)
+- [アクチン](bioassay/protocol/actinassay.md)
+- [トリパンブルー色素排出試験](bioassay/protocol/tripan.md)
 
 ### 試薬関連
-- [細胞関連試薬調製](bioassay/cellreagent.md)
-- [非働化](bioassay/FBSdeactivation.md)
-- [Lotチェック](bioassay/lot_chake.md)
+- [細胞関連試薬調製](bioassay/reagent/cellreagent.md)
+- [非働化](bioassay/reagent/FBSdeactivation.md)
+- [Lotチェック](bioassay/reagent/lot_chake.md)
