@@ -13,7 +13,7 @@ has_children: true
 - [酸加水分解](reaction/acidhydrolysis.md)
 - [危険試薬の処理・安全なクエンチ法](reaction/workup.md)
 - [シリンジ操作](reaction/sirinji.md)
-- [空気敏感試料等の秤量](reaction/hyouryou2.md)
+- [空気敏感試料等の秤量](reaction/precisionscale.md)
 - [高温反応機、オイルバス](reaction/heatingdevice.md)
 
 ### TLC関連
