@@ -1,6 +1,6 @@
 ---
 title: シリンジの扱い方
-parent: reaction
+parent: 反応・合成関連
 nav_order: 80
 ---
 
