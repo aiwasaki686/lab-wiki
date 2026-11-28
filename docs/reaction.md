@@ -18,6 +18,6 @@ has_children: true
 - [高温反応機、オイルバス](docs/reaction/heatingdevice.md)
 
 ### TLC関連
-- [プレート作成](docs/reaction/TLCplate.md)
-- [キャピラリー作成](docs/reaction/capillary.md)
-- [呈色剤リスト](docs/reaction/Coloringagent.md)
+- [プレート作成](reaction/TLCplate.md)
+- [キャピラリー作成](reaction/capillary.md)
+- [呈色剤リスト](reaction/Coloringagent.md)
