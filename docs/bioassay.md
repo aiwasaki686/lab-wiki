@@ -13,14 +13,14 @@ nav_order: 50
 
 ### 活性試験プロトコル
 - [HeLa 活性試験](bioassay/HeLa.md)
-- [HL60 活性試験](docs/bioassay/HL60.md)
-- [Newro2A 培養・活性試験](docs/bioassay/Neuro.md)
-- [セリンプロテアーゼ](docs/bioassay/serineprotease.md)
-- [カテプシンD](docs/bioassay/catdassay.md)
+- [HL60 活性試験](bioassay/HL60.md)
+- [Newro2A 培養・活性試験](bioassay/Neuro.md)
+- [セリンプロテアーゼ](bioassay/serineprotease.md)
+- [カテプシンD](bioassay/catdassay.md)
 - [アクチン](bioassay/actinassay.md)
-- [トリパンブルー色素排出試験](docs/bioassay/tripan.md)
+- [トリパンブルー色素排出試験](bioassay/tripan.md)
 
 ### 試薬関連
-- [細胞関連試薬調製](docs/bioassay/cellreagent.md)
-- [非働化](docs/bioassay/FBSdeactivation.md)
-- [Lotチェック](docs/bioassay/lot_chake.md)
+- [細胞関連試薬調製](bioassay/cellreagent.md)
+- [非働化](bioassay/FBSdeactivation.md)
+- [Lotチェック](bioassay/lot_chake.md)
