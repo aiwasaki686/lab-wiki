@@ -1,6 +1,6 @@
 ---
 title: 危険試薬の処理・安全なクエンチ法
-parent: reaction
+parent: 反応・合成関連
 nav_order: 60
 ---
 
