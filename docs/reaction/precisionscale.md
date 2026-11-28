@@ -1,6 +1,6 @@
 ---
 title: 空気敏感試料等の秤量について
-parent: reaction
+parent: 反応・合成関連
 nav_order: 90
 ---
 
