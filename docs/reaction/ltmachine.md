@@ -1,6 +1,6 @@
 ---
 title: 低温反応機
-parent: reaction
+parent: 反応・合成関連
 nav_order: 10
 ---
 
