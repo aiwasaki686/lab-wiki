@@ -17,7 +17,7 @@ has_children: true
 - [高温反応機、オイルバス](reaction/heatingdevice.md)
 
 ### TLC関連
-- [TLCコツ](reaction/tlc_tips.md)
+- [TLCコツ](reaction/TLCtips.md)
 - [プレート作成](reaction/TLCplate.md)
 - [キャピラリー作成](reaction/capillary.md)
 - [呈色剤リスト](reaction/Coloringagent.md)
