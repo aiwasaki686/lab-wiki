@@ -1,6 +1,6 @@
 ---
 title: キャピラリーの作成について
-parent: reaction
+parent: 反応・合成関連
 nav_order: 520
 ---
 
