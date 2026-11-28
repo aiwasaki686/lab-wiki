@@ -22,6 +22,15 @@ G-actin は重合して F-actin を形成し、F-actin は脱重合によって 
 
 ※ HeLa 細胞の場合、丸く形態変化するため、試験開始後 1 ~ 4 時間くらいで観察するとよい。
 
+通常の HeLa 細胞
+
+<img width="474" height="456" alt="image" src="https://github.com/user-attachments/assets/f8d7ab61-2971-4602-ae93-7cf14c6d7167" />
+
+lyngbyabellin Q を加えて 1h の HeLa 細胞
+
+<img width="475" height="456" alt="image" src="https://github.com/user-attachments/assets/b5dd42d0-b8d0-4968-b10a-4cd139906004" />
+
+
 ### <a name="actin">[アクチン蛍光染色実験]</a>
 # アクチン蛍光染色実験（HeLa細胞）
 
@@ -59,7 +68,7 @@ PBS(-):Ca2+, Mg2+ が含まれていないリン酸緩衝液。細胞の洗浄�
 
 PBS(+):Ca2+, Mg2+ が含まれているリン酸緩衝液。Mg2+、Ca2+が細胞の接着に関与しているため、細胞の生理的な環境に近い条件を維持する目的で使用される。
 
-### 4. 固定（染色時点の細胞内の F-actin を保持するため）
+### 4. 固定（染色時点の細胞内のたんぱく質の局在や細胞の構造を保持するため）
 
 1. 4% PFA in PBS(-)を加える。
    - **2 mL/well**
@@ -75,9 +84,11 @@ PBS(+):Ca2+, Mg2+ が含まれているリン酸緩衝液。Mg2+、Ca2+が細胞
 
 遮光して以下を調製する。
 
-- Rhodamine-phalloidin : F-actin を染色する
+- Rhodamine-phalloidin : F-actin を赤色に染色する
 - 
-- Hoechst33258（4 μg/mL） : 細胞の核を染色する
+- Hoechst33258（4 μg/mL） : 細胞の核を水色に染色する
+
+<img width="454" height="453" alt="image" src="https://github.com/user-attachments/assets/6b5ba414-7613-4ccb-9993-61be30bea138" />
 
 各試薬会社のサイトにプロトコルが掲載されている。
 ・Rhodamine Phalloidin Reagent (ab235138)
